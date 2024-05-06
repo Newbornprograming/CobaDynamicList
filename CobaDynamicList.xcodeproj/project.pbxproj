@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046B1B932BE886C200910731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1B922BE886C200910731 /* AppDelegate.swift */; };
+		046B1B952BE886C200910731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1B942BE886C200910731 /* SceneDelegate.swift */; };
+		046B1B972BE886C200910731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1B962BE886C200910731 /* ViewController.swift */; };
+		046B1B9A2BE886C200910731 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 046B1B992BE886C200910731 /* Base */; };
+		046B1B9C2BE886C300910731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B1B9B2BE886C300910731 /* Assets.xcassets */; };
+		046B1B9F2BE886C300910731 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 046B1B9E2BE886C300910731 /* Base */; };
+		046B1BAA2BE886C300910731 /* CobaDynamicListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1BA92BE886C300910731 /* CobaDynamicListTests.swift */; };
+		046B1BB42BE886C300910731 /* CobaDynamicListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1BB32BE886C300910731 /* CobaDynamicListUITests.swift */; };
+		046B1BB62BE886C300910731 /* CobaDynamicListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B1BB52BE886C300910731 /* CobaDynamicListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046B1BA62BE886C300910731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B1B872BE886C200910731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B1B8E2BE886C200910731;
+			remoteInfo = CobaDynamicList;
+		};
+		046B1BB02BE886C300910731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B1B872BE886C200910731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B1B8E2BE886C200910731;
+			remoteInfo = CobaDynamicList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046B1B8F2BE886C200910731 /* CobaDynamicList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobaDynamicList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B1B922BE886C200910731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046B1B942BE886C200910731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046B1B962BE886C200910731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046B1B992BE886C200910731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046B1B9B2BE886C300910731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046B1B9E2BE886C300910731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046B1BA02BE886C300910731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B1BA52BE886C300910731 /* CobaDynamicListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaDynamicListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B1BA92BE886C300910731 /* CobaDynamicListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaDynamicListTests.swift; sourceTree = "<group>"; };
+		046B1BAF2BE886C300910731 /* CobaDynamicListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaDynamicListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B1BB32BE886C300910731 /* CobaDynamicListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaDynamicListUITests.swift; sourceTree = "<group>"; };
+		046B1BB52BE886C300910731 /* CobaDynamicListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaDynamicListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046B1B8C2BE886C200910731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BA22BE886C300910731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BAC2BE886C300910731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046B1B862BE886C200910731 = {
+			isa = PBXGroup;
+			children = (
+				046B1B912BE886C200910731 /* CobaDynamicList */,
+				046B1BA82BE886C300910731 /* CobaDynamicListTests */,
+				046B1BB22BE886C300910731 /* CobaDynamicListUITests */,
+				046B1B902BE886C200910731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046B1B902BE886C200910731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046B1B8F2BE886C200910731 /* CobaDynamicList.app */,
+				046B1BA52BE886C300910731 /* CobaDynamicListTests.xctest */,
+				046B1BAF2BE886C300910731 /* CobaDynamicListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046B1B912BE886C200910731 /* CobaDynamicList */ = {
+			isa = PBXGroup;
+			children = (
+				046B1B922BE886C200910731 /* AppDelegate.swift */,
+				046B1B942BE886C200910731 /* SceneDelegate.swift */,
+				046B1B962BE886C200910731 /* ViewController.swift */,
+				046B1B982BE886C200910731 /* Main.storyboard */,
+				046B1B9B2BE886C300910731 /* Assets.xcassets */,
+				046B1B9D2BE886C300910731 /* LaunchScreen.storyboard */,
+				046B1BA02BE886C300910731 /* Info.plist */,
+			);
+			path = CobaDynamicList;
+			sourceTree = "<group>";
+		};
+		046B1BA82BE886C300910731 /* CobaDynamicListTests */ = {
+			isa = PBXGroup;
+			children = (
+				046B1BA92BE886C300910731 /* CobaDynamicListTests.swift */,
+			);
+			path = CobaDynamicListTests;
+			sourceTree = "<group>";
+		};
+		046B1BB22BE886C300910731 /* CobaDynamicListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046B1BB32BE886C300910731 /* CobaDynamicListUITests.swift */,
+				046B1BB52BE886C300910731 /* CobaDynamicListUITestsLaunchTests.swift */,
+			);
+			path = CobaDynamicListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046B1B8E2BE886C200910731 /* CobaDynamicList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B1BB92BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicList" */;
+			buildPhases = (
+				046B1B8B2BE886C200910731 /* Sources */,
+				046B1B8C2BE886C200910731 /* Frameworks */,
+				046B1B8D2BE886C200910731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CobaDynamicList;
+			productName = CobaDynamicList;
+			productReference = 046B1B8F2BE886C200910731 /* CobaDynamicList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046B1BA42BE886C300910731 /* CobaDynamicListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B1BBC2BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicListTests" */;
+			buildPhases = (
+				046B1BA12BE886C300910731 /* Sources */,
+				046B1BA22BE886C300910731 /* Frameworks */,
+				046B1BA32BE886C300910731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B1BA72BE886C300910731 /* PBXTargetDependency */,
+			);
+			name = CobaDynamicListTests;
+			productName = CobaDynamicListTests;
+			productReference = 046B1BA52BE886C300910731 /* CobaDynamicListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046B1BAE2BE886C300910731 /* CobaDynamicListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B1BBF2BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicListUITests" */;
+			buildPhases = (
+				046B1BAB2BE886C300910731 /* Sources */,
+				046B1BAC2BE886C300910731 /* Frameworks */,
+				046B1BAD2BE886C300910731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B1BB12BE886C300910731 /* PBXTargetDependency */,
+			);
+			name = CobaDynamicListUITests;
+			productName = CobaDynamicListUITests;
+			productReference = 046B1BAF2BE886C300910731 /* CobaDynamicListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046B1B872BE886C200910731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					046B1B8E2BE886C200910731 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					046B1BA42BE886C300910731 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 046B1B8E2BE886C200910731;
+					};
+					046B1BAE2BE886C300910731 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 046B1B8E2BE886C200910731;
+					};
+				};
+			};
+			buildConfigurationList = 046B1B8A2BE886C200910731 /* Build configuration list for PBXProject "CobaDynamicList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046B1B862BE886C200910731;
+			productRefGroup = 046B1B902BE886C200910731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046B1B8E2BE886C200910731 /* CobaDynamicList */,
+				046B1BA42BE886C300910731 /* CobaDynamicListTests */,
+				046B1BAE2BE886C300910731 /* CobaDynamicListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046B1B8D2BE886C200910731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B1B9C2BE886C300910731 /* Assets.xcassets in Resources */,
+				046B1B9F2BE886C300910731 /* Base in Resources */,
+				046B1B9A2BE886C200910731 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BA32BE886C300910731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BAD2BE886C300910731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046B1B8B2BE886C200910731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B1B972BE886C200910731 /* ViewController.swift in Sources */,
+				046B1B932BE886C200910731 /* AppDelegate.swift in Sources */,
+				046B1B952BE886C200910731 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BA12BE886C300910731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B1BAA2BE886C300910731 /* CobaDynamicListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B1BAB2BE886C300910731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B1BB42BE886C300910731 /* CobaDynamicListUITests.swift in Sources */,
+				046B1BB62BE886C300910731 /* CobaDynamicListUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046B1BA72BE886C300910731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B1B8E2BE886C200910731 /* CobaDynamicList */;
+			targetProxy = 046B1BA62BE886C300910731 /* PBXContainerItemProxy */;
+		};
+		046B1BB12BE886C300910731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B1B8E2BE886C200910731 /* CobaDynamicList */;
+			targetProxy = 046B1BB02BE886C300910731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046B1B982BE886C200910731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B1B992BE886C200910731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046B1B9D2BE886C300910731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B1B9E2BE886C300910731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046B1BB72BE886C300910731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046B1BB82BE886C300910731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046B1BBA2BE886C300910731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CobaDynamicList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046B1BBB2BE886C300910731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CobaDynamicList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046B1BBD2BE886C300910731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaDynamicList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CobaDynamicList";
+			};
+			name = Debug;
+		};
+		046B1BBE2BE886C300910731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CobaDynamicList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CobaDynamicList";
+			};
+			name = Release;
+		};
+		046B1BC02BE886C300910731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CobaDynamicList;
+			};
+			name = Debug;
+		};
+		046B1BC12BE886C300910731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF7U5CQHP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yohan-Deny.CobaDynamicListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CobaDynamicList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046B1B8A2BE886C200910731 /* Build configuration list for PBXProject "CobaDynamicList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B1BB72BE886C300910731 /* Debug */,
+				046B1BB82BE886C300910731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B1BB92BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B1BBA2BE886C300910731 /* Debug */,
+				046B1BBB2BE886C300910731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B1BBC2BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B1BBD2BE886C300910731 /* Debug */,
+				046B1BBE2BE886C300910731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B1BBF2BE886C300910731 /* Build configuration list for PBXNativeTarget "CobaDynamicListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B1BC02BE886C300910731 /* Debug */,
+				046B1BC12BE886C300910731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046B1B872BE886C200910731 /* Project object */;
+}
